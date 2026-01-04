@@ -1,1 +1,23 @@
-/.venv/
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python environment
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+
+# Deep Learning specific
+data/
+datasets/
+*.pth
+*.h5
+*.ckpt
+outputs/
+runs/
+
+# System files
+.DS_Store
+Thumbs.db
